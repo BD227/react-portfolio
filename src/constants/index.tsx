@@ -66,7 +66,7 @@ export const PROJECTS = [
   },
   {
     title: "Ping Pong!",
-    link: "https://github.com/BD227/PongGameJS",
+    link: "https://my-pong-game-js.vercel.app/",
     image: pingpong,
     description:
       "My very own version of the iconic PONG with a twist! A variety of settings are available to spice things up.",
