@@ -50,6 +50,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
+    link: "https://brandon-dilallo.vercel.app/",
     image: resume,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
