@@ -4,16 +4,23 @@ import demonhacks from "../assets/projects/demonhacks.png";
 import opg from "../assets/projects/opg.png";
 import resume from "../assets/projects/resume.jpg";
 
-export const HERO_CONTENT = `I'm a passionate full stack developer who enjoys creating fun, interactive user experiences. With nearly a decade of programming experience, I have honed my skills in front-end technologies like React, as well as back-end technologies like Python Flask, MySQL, and SQLite. My goal is to leverage my expertise to tackle complex problems with robust solutions and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a dedicated full-stack developer with a passion for building engaging and interactive user experiences. With nearly a decade of programming expertise, I have developed strong proficiency in front-end technologies like React and back-end frameworks such as Python Flask, complemented by database management with MySQL and SQLite. I thrive on solving complex challenges through innovative, scalable solutions and am committed to delivering exceptional user experiences that leave a lasting impact.`;
 
-export const ABOUT_TEXT = `I'm currently a full-time developer at Epic Systems where I work on MyChart, Epic's patient portal, to improve the patient experience. I began programming in high school after enrolling in an introductory Java course and I've been passionate about programming ever since. I deeply enjoy the problem solving nature of the field and find joy in creating rich experiences for others to enjoy. In my free time, I develop Unity games and web apps which give me exposure to new tech stacks and an opportunity to practice various software development patterns.`;
+export const ABOUT_TEXT = `I am a full-time developer at Epic Systems, where I work on MyChart, Epic's patient portal, to enhance the patient experience. In this role, I take ownership of the entire project lifecycle, from conception to deployment. I design solutions that align with business goals and customer expectations, plan large-scale projects using Gantt charts and Scrum methodologies, and deliver results within strict timelines.
+
+As a full-stack developer, I contribute to both the front and back-end of projects, leveraging a tech stack that includes React, C#, AJAX, Cache, and Microsoft SQL Server. Beyond development, I have taken on leadership responsibilities, such as serving as the Fix Squad Lead, where I ran daily stand-ups, analyzed quality metrics, and ensured application stability. As a member of the Web Services Security Review Team, I review changes impacting user input and external web services to protect patient information and maintain application security standards.
+
+My passion for programming began in high school, where I discovered the joy of problem-solving in an introductory Java course. Since then, I’ve been driven by the challenge of creating innovative solutions and rich experiences that make a tangible difference.
+
+In my free time, I enjoy exploring new technologies by developing Unity games and web applications, which allow me to expand my skill set and practice diverse software development patterns.`;
+
 
 export const EXPERIENCES = [
   {
     year: "July 2021 - Present",
     role: "Full Stack Developer",
     company: "Epic Systems Corporation",
-    description: `Developed and maintained healthcare software, such as MyChart and Hyperspace, using React, JavaScript, C#, and Caché while adhering to modern software development best practices. Developed and debugged forms across both web and server infrastructure to improve the patient questionnaire experience. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `Developed and maintained healthcare software solutions, including MyChart and Hyperspace, leveraging React, JavaScript, C#, and Caché, while adhering to modern software development best practices. Enhanced patient experiences by developing and debugging forms across web and server infrastructures, improving the usability and efficiency of patient questionnaires. Collaborated closely with stakeholders to define project requirements, establish priorities, and create realistic project timelines. Ensured quality and reliability through rigorous code reviews, automated testing, and troubleshooting critical production issues, resulting in more stable and user-friendly applications.`,
     technologies: ["React", "JavaScript", "C#", "Caché", "SQL"],
   },
   {
