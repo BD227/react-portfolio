@@ -3,6 +3,7 @@ import pingpong from "../assets/projects/pingpong.png";
 import demonhacks from "../assets/projects/demonhacks.png";
 import opg from "../assets/projects/opg.png";
 import resume from "../assets/projects/resume.jpg";
+import credit from "../assets/projects/credit.png";
 
 export const HERO_CONTENT = `I am a dedicated full-stack developer with a passion for building engaging and interactive user experiences. With nearly a decade of programming expertise, I have developed strong proficiency in front-end technologies like React and back-end frameworks such as Python Flask, complemented by database management with MySQL and SQLite. I thrive on solving complex challenges through innovative, scalable solutions and am committed to delivering exceptional user experiences that leave a lasting impact.`;
 
@@ -41,12 +42,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "One Piece Episode Guesser",
-    link: "https://www.onepieceguesser.com/",
-    image: opg,
+    title: "Credit Card Fraud Detection",
+    link: "https://github.com/BD227/Credit-Card-Fraud-Detection",
+    image: credit,
     description:
-      "An interactive web app where One Piece fans can test their knowledge by guessing the episode number from a single frame of animation.",
-    technologies: ["PythonFlask", "CSS", "JavaScript", "MySQL"],
+      "Credit card fraud detection using Logistic Regression, Random Forest, and Gradient Boosting. This project compares each technique and demonstrates the importance of properly handling imbalanced data sets.",
+    technologies: ["Python"],
   },
   {
     title: "Portfolio Website",
@@ -55,6 +56,14 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "TypeScript", "HTML", "CSS"],
+  },
+  {
+    title: "One Piece Episode Guesser",
+    link: "https://www.onepieceguesser.com/",
+    image: opg,
+    description:
+      "An interactive web app where One Piece fans can test their knowledge by guessing the episode number from a single frame of animation.",
+    technologies: ["Python Flask", "JavaScript", "MySQL", "HTML", "CSS"],
   },
   {
     title: "Project Orion",
@@ -70,7 +79,7 @@ export const PROJECTS = [
     image: pingpong,
     description:
       "My very own version of the iconic PONG with a twist! A variety of settings are available to spice things up.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["JavaScript", "HTML", "CSS"],
   },
   {
     title: "TreeLine Chicago",
