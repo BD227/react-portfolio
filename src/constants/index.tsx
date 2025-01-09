@@ -4,6 +4,7 @@ import demonhacks from "../assets/projects/demonhacks.png";
 import opg from "../assets/projects/opg.png";
 import resume from "../assets/projects/resume.jpg";
 import credit from "../assets/projects/credit.png";
+import dnd from "../assets/projects/dnd_virtual_assistant.png";
 
 export const HERO_CONTENT = `I am a dedicated full-stack developer with a passion for building engaging and interactive user experiences. With nearly a decade of programming expertise, I have developed strong proficiency in front-end technologies like React and back-end frameworks such as Python Flask, complemented by database management with MySQL and SQLite. I thrive on solving complex challenges through innovative, scalable solutions and am committed to delivering exceptional user experiences that leave a lasting impact.`;
 
@@ -42,6 +43,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "D&D Virtual Assistant",
+    link: "https://github.com/BD227/DnD-Virtual-Assistant",
+    image: dnd,
+    description:
+      "An app which will enhance your Dungeons & Dragons session by listening for keywords such as spells, items, and rules and displaying details about each on a dashboard to save you time looking them up.",
+    technologies: ["React", "Typescript","Python", "Flask", "HTML", "CSS"],
+  },
+  {
     title: "Credit Card Fraud Detection",
     link: "https://github.com/BD227/Credit-Card-Fraud-Detection",
     image: credit,
@@ -63,7 +72,7 @@ export const PROJECTS = [
     image: opg,
     description:
       "An interactive web app where One Piece fans can test their knowledge by guessing the episode number from a single frame of animation.",
-    technologies: ["Python Flask", "JavaScript", "MySQL", "HTML", "CSS"],
+    technologies: ["Python", "Flask", "JavaScript", "MySQL", "HTML", "CSS"],
   },
   {
     title: "Project Orion",
